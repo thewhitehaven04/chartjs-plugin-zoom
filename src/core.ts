@@ -238,7 +238,7 @@ export function pan(
 
   chart.update(transition)
 
-  onPan?.({ chart, trigger, delta })
+  onPan?.({ chart, trigger, delta: { x, y } })
 }
 
 export function getInitialScaleBounds(chart: Chart) {

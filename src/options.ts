@@ -1,4 +1,4 @@
-import type { Chart, Color, Point, Scale } from 'chart.js'
+import type { Chart, Color, Point } from 'chart.js'
 
 export type Mode = 'x' | 'y' | 'xy'
 export type ModeFn = (context: { chart: Chart }) => Mode
