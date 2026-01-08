@@ -1,6 +1,6 @@
 {
-  "name": "chartjs-plugin-zoom",
-  "version": "2.2.11",
+  "name": "@thewhitehaven04/chartjs-plugin-zoom",
+  "version": "2.2.12",
   "description": "A fork of the ChartJS Zoom plugin that enables zoom and pan functionality in Chart.js charts",
   "homepage": "https://www.chartjs.org/chartjs-plugin-zoom/",
   "repository": {
@@ -9,16 +9,16 @@
   },
   "license": "MIT",
   "type": "module",
-  "jsdelivr": "./dist/chartjs-plugin-zoom.min.js",
-  "unpkg": "./dist/chartjs-plugin-zoom.min.js",
-  "main": "./dist/chartjs-plugin-zoom.js",
-  "module": "./dist/chartjs-plugin-zoom.esm.js",
-  "types": "./dist/src/index.d.ts",
+  "jsdelivr": "./dist/@thewhitehaven04/chartjs-plugin-zoom.min.js",
+  "unpkg": "./dist/@thewhitehaven04/chartjs-plugin-zoom.min.js",
+  "main": "./dist/@thewhitehaven04/chartjs-plugin-zoom.js",
+  "module": "./dist/@thewhitehaven04/chartjs-plugin-zoom.esm.js",
+  "types": "./types/index.d.ts",
   "exports": {
     ".": {
       "types": "./dist/src/index.d.ts",
-      "import": "./dist/chartjs-plugin-zoom-esm.js",
-      "require": "./dist/chartjs-plugin-zoom.js"
+      "import": "./dist/@thewhitehaven04/chartjs-plugin-zoom-esm.js",
+      "require": "./dist/@thewhitehaven04/chartjs-plugin-zoom.js"
     }
   },
   "files": [
