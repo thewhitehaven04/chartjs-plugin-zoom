@@ -53,7 +53,7 @@ export default [
     input: 'src/index.umd.ts',
     output: {
       name,
-      file: 'dist/chartjs-plugin-zoom.js',
+      file: `dist/${pkg.name.split('/').at(-1)}.js`,
       banner,
       format: 'umd',
       indent: false,
@@ -67,7 +67,7 @@ export default [
     input: 'src/index.umd.ts',
     output: {
       name,
-      file: 'dist/chartjs-plugin-zoom.min.js',
+      file: `dist/${pkg.name.split('/').at(-1)}.min.js`,
       banner,
       format: 'umd',
       indent: false,
@@ -82,7 +82,7 @@ export default [
     plugins: plugins(),
     output: {
       name,
-      file: 'dist/chartjs-plugin-zoom.esm.js',
+      file: `dist/${pkg.name.split('/').at(-1)}.esm.js`,
       banner,
       format: 'esm',
       indent: false,
